@@ -1,0 +1,53 @@
+body {
+    background-color: #dad9d9;
+    color: black;
+}
+
+#header {
+    background-color: #fff0ce;
+    color: rgb(69, 69, 69);
+    padding: 5px;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+}
+
+a[href^="#"] {
+    color: rgb(87, 87, 255);
+    text-decoration: none;
+}
+
+section > h2 {
+    color: rgb(87, 87, 255);
+    font-size: 30px;
+}
+
+img + p {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+a:hover {
+    background-color: rgb(54, 254, 28);
+    color: black;
+}
+
+section:nth-of-type(2) {
+    border: 2px solid #000;
+    background-color: #f0f0f0;
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: #5e5e5e;
+    }
+    nav ul {
+        display: block;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
