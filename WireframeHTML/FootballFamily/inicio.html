@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/inicio.css" />
         <title>Football Family</title>
     </head>
 
@@ -10,7 +11,10 @@
         <!-- Header con navegación -->
         <header>
             <div id="logo">
-                <img src="logo.png" alt="Football Family Logo" />
+                <img
+                    src="src/media/images/logo/Logo Football Family Banner.png"
+                    alt="Football Family Logo"
+                />
             </div>
             <nav>
                 <ul>
@@ -30,9 +34,16 @@
         <main>
             <section id="promo">
                 <div class="video-placeholder">
-                    <!-- Aquí iría el video promocional -->
-                    <button>▶</button>
-                    <p>Tu tienda de fútbol de confianza.</p>
+                    <iframe
+                        width="800"
+                        height="400"
+                        src="https://www.youtube.com/embed/kzJg6j7Xbu0?si=VmNFupVGkkK4h1g8"
+                        title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                    ></iframe>
                 </div>
             </section>
 
@@ -41,20 +52,32 @@
                 <h2>Productos Destacados</h2>
                 <div class="productos">
                     <div class="producto">
-                        <img src="producto1.png" alt="Producto 1" />
-                        <p>Descripción Producto 1</p>
+                        <img
+                            src="src/media/images/products/botas/botas1.png"
+                            alt="Producto 1"
+                        />
+                        <p>Botas de Futbol Adidas F50</p>
                     </div>
                     <div class="producto">
-                        <img src="producto2.png" alt="Producto 2" />
-                        <p>Descripción Producto 2</p>
+                        <img
+                            src="src/media/images/products/botas/botas4.png"
+                            alt="Producto 2"
+                        />
+                        <p>Botas de Futbol Nike Phantom</p>
                     </div>
                     <div class="producto">
-                        <img src="producto3.png" alt="Producto 3" />
-                        <p>Descripción Producto 3</p>
+                        <img
+                            src="src/media/images/products/equipaciones/equipacion1.png"
+                            alt="Producto 3"
+                        />
+                        <p>Primera Equipación Futbol Club Barcelona</p>
                     </div>
                     <div class="producto">
-                        <img src="producto4.png" alt="Producto 4" />
-                        <p>Descripción Producto 4</p>
+                        <img
+                            src="src/media/images/products/material/material1.png"
+                            alt="Producto 4"
+                        />
+                        <p>Kit Completo Material de Entrenamiento</p>
                     </div>
                 </div>
             </section>
@@ -64,44 +87,66 @@
                 <h2>Tendencias</h2>
                 <div class="productos">
                     <div class="producto">
-                        <img src="tendencia1.png" alt="Tendencia 1" />
-                        <p>Descripción Tendencia 1</p>
+                        <img
+                            src="src/media/images/products/balones/balon1.png"
+                            alt="Tendencia 1"
+                        />
+                        <p>Balon Adidas Liga Francesa</p>
                     </div>
                     <div class="producto">
-                        <img src="tendencia2.png" alt="Tendencia 2" />
-                        <p>Descripción Tendencia 2</p>
+                        <img
+                            src="src/media/images/products/material/material2.png"
+                            alt="Tendencia 2"
+                        />
+                        <p>Material Silueta de Jugador</p>
                     </div>
                     <div class="producto">
-                        <img src="tendencia3.png" alt="Tendencia 3" />
-                        <p>Descripción Tendencia 3</p>
+                        <img
+                            src="src/media/images/products/botas/botas3.png"
+                            alt="Tendencia 3"
+                        />
+                        <p>Botas de Futbol Nike Mercurial</p>
                     </div>
                     <div class="producto">
-                        <img src="tendencia4.png" alt="Tendencia 4" />
-                        <p>Descripción Tendencia 4</p>
+                        <img
+                            src="src/media/images/products/botas/botas2.png"
+                            alt="Tendencia 4"
+                        />
+                        <p>Botas de Futbol Adidas F30</p>
                     </div>
                 </div>
             </section>
 
             <!-- Sección de Líderes del Sector -->
             <section id="lideres-sector">
-                <h2>Líderes del Sector</h2>
-                <p>
-                    Nemo enim voluptatem quia voluptas sit aspernatur aut odit
-                    aut fugit, sed quia consequuntur magni dolores eos qui
-                    ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-                    qui dolorem.
-                </p>
-                <div class="imagen-placeholder"></div>
+                <div class="texto-lideres-sector">
+                    <h2>Líderes del Sector</h2>
+                    <p>
+                        Footbal Family es una empresa familiar especializada en
+                        la venta de material deportivo que lleva siendo lider
+                        del Sector en Valencia desde 2010. Nuestro objetivo es
+                        seguir creciendo y ofrecer a nuestros clientes la mejor
+                        calidad y servicio.
+                    </p>
+                </div>
+                <img
+                    class="img-familia-jugando"
+                    src="src/media/images/info/Familia Jugando Futbol.png"
+                    alt="Familia Jugando Futbol"
+                />
             </section>
         </main>
 
         <!-- Footer -->
         <footer>
-            <div class="footer-info">
+            <div class="footer-main">
                 <!-- Contacto -->
-                <section class="footer-top">
+                <section class="footer-info">
                     <div id="mini-logo">
-                        <img src="logo-pequeno.png" alt="Logo pequeño" />
+                        <img
+                            src="src/media/images/logo/Logo Solo.png"
+                            alt="Logo pequeño"
+                        />
                     </div>
                     <div class="contacto">
                         <p><strong>Contacto</strong></p>
@@ -127,7 +172,10 @@
                 </section>
                 <!-- Mapa y Dirección -->
                 <section class="ubicacion">
-                    <img src="mapa.png" alt="Mapa ubicación" />
+                    <img
+                        src="src/media/images/info/Croquis Ubicación.png"
+                        alt="Mapa ubicación"
+                    />
                     <div class="direccion">
                         <p><strong>Dirección</strong></p>
                         <p>C/ Hernanzed Benito, 6</p>
@@ -142,13 +190,14 @@
                     <!-- Iconos redes sociales -->
                     <div class="iconos-redes">
                         <a href="#"
-                            ><img src="icono1.png" alt="Icono red 1"
+                            ><img
+                                src="src/media/images/icons/rrss/icons8-instagram.svg"
+                                alt="Icono de Instagram"
                         /></a>
                         <a href="#"
-                            ><img src="icono2.png" alt="Icono red 2"
-                        /></a>
-                        <a href="#"
-                            ><img src="icono3.png" alt="Icono red 3"
+                            ><img
+                                src="src/media/images/icons/rrss/icons8-twitterx.svg"
+                                alt="Icono de X"
                         /></a>
                     </div>
                 </div>
