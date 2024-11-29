@@ -88,7 +88,11 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: var(--primary-color);
-    padding: 10px 10px; /* Añadir padding para hacer los enlaces más clicables */
+    padding: 10px 10px; /* adding para hacer los enlaces más clicables */
+}
+nav ul li a:hover {
+    font-weight: bold;
+    color: var(--text-color);
 }
 
 #idiomas {
@@ -216,12 +220,31 @@ footer {
 .compania ul li a,
 .ayuda ul li a {
     text-decoration: none;
+}
+
+/* Estado normal del enlace */
+.compania ul li a:link,
+.ayuda ul li a:link {
     color: #333;
 }
 
+/* Estado del enlace visitado */
+.compania ul li a:visited,
+.ayuda ul li a:visited {
+    color: #666;
+}
+
+/* Estado del enlace al pasar el ratón por encima */
 .compania ul li a:hover,
 .ayuda ul li a:hover {
+    color: #23761e;
     text-decoration: underline;
+}
+
+/* Estado del enlace activo (cuando se hace clic) */
+.compania ul li a:active,
+.ayuda ul li a:active {
+    color: #131313;
 }
 
 /* Footer Ubicación */
@@ -273,9 +296,13 @@ footer {
     align-items: center;
 }
 
+.iconos-redes a {
+    display: block; /* Hace que cada enlace ocupe toda la línea */
+    margin: 5px 0; /* Añade un margen vertical para separar los enlaces */
+}
+
 .iconos-redes {
-    display: flex;
-    gap: 10px;
+    display: inline; /* Hace que los divs dentro de .iconos-redes se comporten como elementos en línea */
 }
 
 .iconos-redes img {
