@@ -14,11 +14,12 @@ section {
     overflow: hidden; /* Asegura que los floats no rompan el contenedor */
 }
 
+/*Productos individuales con FLOAT*/
 .producto {
     float: left;
     width: 370px;
     height: 500px;
-    margin: 10px;
+    margin: 30px;
     text-align: center;
     background-color: var(--alternative-color);
     border: 1px solid #ddd;

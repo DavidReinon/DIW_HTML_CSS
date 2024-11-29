@@ -3,13 +3,18 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles/estilosGenerales.css" />
+        <link rel="stylesheet" href="styles/alquilerCampos.css" />
         <title>Football Family</title>
     </head>
     <body>
         <!-- Header con navegación -->
         <header>
             <div id="logo">
-                <img src="logo.png" alt="Football Family Logo" />
+                <img
+                    src="src/media/images/logo/Logo Football Family Banner.png"
+                    alt="Football Family Logo"
+                />
             </div>
             <nav>
                 <ul>
@@ -39,37 +44,62 @@
                 />
                 <button>🔍</button>
             </section>
-            <section>
+            <!-- (Productos) Campos para alquilar -->
+            <section id="alquiler-campanar-valencia">
                 <h1>Alquiler en Campanar, Valencia</h1>
-                <div>
-                    <h3>Campo Fútbol 1 - Césped Natural</h3>
+                <div class="producto-alquiler">
+                    <div class="alquiler-texto">
+                        <h3>Campo Fútbol 7 - Césped Natural</h3>
+                        <p>
+                            Campo de fútbol 7 ideal para partidos amistosos y
+                            entrenamientos en césped natural.
+                        </p>
+                    </div>
                     <img
-                        src="placeholder1.png"
-                        alt="Campo Fútbol 1 - Césped Natural"
+                        src="src/media/images/products/rentalFields/campo1.png"
+                        alt="Campo 1 Fútbol 7 - Césped Natural"
                     />
                 </div>
-                <div>
-                    <h3>Campo Fútbol 2 - Césped Artificial</h3>
+                <div class="producto-alquiler">
+                    <div class="alquiler-texto">
+                        <h3>Campo Fútbol 7 - Césped Artificial</h3>
+                        <p>
+                            Perfecto para jugar al fútbol 7 en una superficie de
+                            césped artificial de alta calidad.
+                        </p>
+                    </div>
                     <img
-                        src="placeholder2.png"
-                        alt="Campo Fútbol 2 - Césped Artificial"
+                        src="src/media/images/products/rentalFields/campo2.png"
+                        alt="Campo 2 Fútbol 7 - Césped Artificial"
                     />
                 </div>
             </section>
-            <section>
+            <section id="alquiler-patraix-valencia">
                 <h1>Alquiler en Patraix, Valencia</h1>
-                <div>
-                    <h3>Campo Fútbol 3 - Césped Natural</h3>
+                <div class="producto-alquiler">
+                    <div class="alquiler-texto">
+                        <h3>Campo Fútbol 11 - Césped Natural</h3>
+                        <p>
+                            Espacio amplio y cómodo para partidos de fútbol 11
+                            en césped natural bien cuidado.
+                        </p>
+                    </div>
                     <img
-                        src="placeholder3.png"
-                        alt="Campo Fútbol 3 - Césped Natural"
+                        src="src/media/images/products/rentalFields/campo3.png"
+                        alt="Campo 3 Fútbol 11 - Césped Natural"
                     />
                 </div>
-                <div>
-                    <h3>Campo Fútbol 4 - Césped Artificial</h3>
+                <div class="producto-alquiler">
+                    <div class="alquiler-texto">
+                        <h3>Campo Fútbol 7 - Césped Artificial</h3>
+                        <p>
+                            Campo de fútbol 7 en césped artificial, perfecto
+                            para eventos y competiciones.
+                        </p>
+                    </div>
                     <img
-                        src="placeholder4.png"
-                        alt="Campo Fútbol 4 - Césped Artificial"
+                        src="src/media/images/products/rentalFields/campo4.png"
+                        alt="Campo 4 Fútbol 7 - Césped Artificial"
                     />
                 </div>
             </section>
@@ -77,11 +107,14 @@
 
         <!-- Footer -->
         <footer>
-            <div class="footer-info">
+            <div class="footer-main">
                 <!-- Contacto -->
-                <section class="footer-top">
+                <section class="footer-info">
                     <div id="mini-logo">
-                        <img src="logo-pequeno.png" alt="Logo pequeño" />
+                        <img
+                            src="src/media/images/logo/Logo Solo.png"
+                            alt="Logo pequeño"
+                        />
                     </div>
                     <div class="contacto">
                         <p><strong>Contacto</strong></p>
@@ -107,7 +140,10 @@
                 </section>
                 <!-- Mapa y Dirección -->
                 <section class="ubicacion">
-                    <img src="mapa.png" alt="Mapa ubicación" />
+                    <img
+                        src="src/media/images/info/Croquis Ubicación.png"
+                        alt="Mapa ubicación"
+                    />
                     <div class="direccion">
                         <p><strong>Dirección</strong></p>
                         <p>C/ Hernanzed Benito, 6</p>
@@ -122,13 +158,14 @@
                     <!-- Iconos redes sociales -->
                     <div class="iconos-redes">
                         <a href="#"
-                            ><img src="icono1.png" alt="Icono red 1"
+                            ><img
+                                src="src/media/images/icons/rrss/icons8-instagram.svg"
+                                alt="Icono de Instagram"
                         /></a>
                         <a href="#"
-                            ><img src="icono2.png" alt="Icono red 2"
-                        /></a>
-                        <a href="#"
-                            ><img src="icono3.png" alt="Icono red 3"
+                            ><img
+                                src="src/media/images/icons/rrss/icons8-twitterx.svg"
+                                alt="Icono de X"
                         /></a>
                     </div>
                 </div>

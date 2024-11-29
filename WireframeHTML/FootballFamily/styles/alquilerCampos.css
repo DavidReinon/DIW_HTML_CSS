@@ -1,0 +1,41 @@
+main section {
+    padding: 20px 15px;
+    margin-bottom: 50px;
+}
+
+main section h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+/* Contenedor de campos */
+section > .producto-alquiler {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding: 20px;
+    gap: 10px;
+}
+
+section > .producto-alquiler:nth-child(odd) {
+    flex-direction: row-reverse;
+    background-color: var(--alternative-color);
+    text-align: end;
+}
+
+section h3 {
+    font-size: 20px;
+    margin: 0;
+    flex: 1;
+    color: var(--primary-color);
+}
+
+.producto-alquiler img {
+    width: 700px;
+    height: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
