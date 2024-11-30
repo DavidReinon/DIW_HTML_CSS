@@ -105,9 +105,10 @@ nav ul li a:hover {
     background: none;
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
-    padding: 5px 10px;
+    padding: 7px 10px;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 #idiomas button:hover {
@@ -297,12 +298,8 @@ footer {
 }
 
 .iconos-redes a {
-    display: block; /* Hace que cada enlace ocupe toda la línea */
-    margin: 5px 0; /* Añade un margen vertical para separar los enlaces */
-}
-
-.iconos-redes {
-    display: inline; /* Hace que los divs dentro de .iconos-redes se comporten como elementos en línea */
+    display: block;
+    margin: 5px 0;
 }
 
 .iconos-redes img {
